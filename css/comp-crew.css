@@ -1,0 +1,98 @@
+@media screen and (min-width: 992px) {
+    .s_cre_c2_grid {
+        .card_simple_3:nth-child(3n + 1),
+        .card_simple_3:nth-child(3n + 3) {
+            transform: translateY(5rem);
+        }
+
+        .card_simple_3 {
+            z-index: 1;
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .s_cre_c2_grid {
+        .card_simple_3:nth-child(2n + 1) {
+            transform: translateY(3rem);
+        }
+    }
+}
+
+
+.s_cre_c2_grid_left_wrapper,
+.s_cre_c2_grid_right_wrapper {
+    .card_simple_3 {
+        transform: translateY(2rem);
+    }
+}
+
+.gradient_bottom {
+    position: relative;
+    z-index: 0;
+}
+
+.gradient_bottom:nth-child(2) {
+    transform: translateY(-2rem);
+}
+
+.s_cre_c2_grid .gradient_bottom_elem .card_simple_3 {
+    transform: translateY(0) !important;
+}
+
+.gradient_l::before,
+.gradient_r::after,
+.gradient_bottom::before  {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.gradient_l::before {
+    top: 0;
+    left: 0;
+    background: #F8EF78;
+    background: linear-gradient(90deg, rgba(248, 239, 120, 1) 0%, rgba(248, 239, 120, 0) 100%);
+}
+
+.gradient_r::after  {
+    top: 0;
+    right: 0;
+    background: #F8EF78;
+    background: linear-gradient(90deg, rgba(248, 239, 120, 0) 0%, rgba(248, 239, 120, 1) 100%);
+}
+
+@media screen and (max-width: 480px) {
+    .gradient_l::before {
+        background: linear-gradient(90deg, rgba(248, 239, 120, 1) 0%, rgba(248, 239, 120, 0) 250%);
+    }
+    .gradient_r::after  {
+        background: linear-gradient(90deg, rgba(248, 239, 120, 0) -150%, rgba(248, 239, 120, 1) 100%);
+    }
+}
+
+.gradient_bottom::before {
+    top: 0;
+    left: 0;
+    background: #F8EF78;
+    background: linear-gradient(0deg, rgba(248, 239, 120, 1) 50%, rgba(248, 239, 120, 0) 100%);
+}
+
+body.u-theme-dark {
+    .gradient_l::before {
+        background: #282828;
+        background: linear-gradient(90deg, rgba(40, 40, 40, 1) 0%, rgba(40, 40, 40, 0) 100%);
+    }
+
+    .gradient_r::after  {
+        background: #282828;
+        background: linear-gradient(90deg, rgba(40, 40, 40, 0) 0%, rgba(40, 40, 40, 1) 100%);
+    }
+
+    .gradient_bottom::before {
+
+        background: #282828;
+        background: linear-gradient(0deg, rgba(40, 40, 40, 1) 50%, rgba(40, 40, 40, 0) 100%);
+    }  
+}

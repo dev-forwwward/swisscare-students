@@ -1,0 +1,12 @@
+
+.u-theme-dark {
+    .graphic-star-1-light,
+    .graphic-star-2-light {
+        display: none;
+    }
+
+    .graphic-star-1-dark,
+    .graphic-star-2-dark {
+        display: block;
+    }
+}

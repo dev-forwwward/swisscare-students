@@ -1,0 +1,33 @@
+html.lock-viewport {
+    overflow: hidden;
+}
+
+html.lock-viewport body {
+    overflow: hidden;
+    left: 0px;
+    width: 100%;
+}
+
+html::after {
+    content: '';
+    height: 100svh;
+    width: 100%;
+    background-color: var(--_theme---brand-2--background);
+    display: block;
+    position: fixed;
+    z-index: 11111;
+    inset: 0%;
+    /* animation */
+    animation: curtain-fade 2.5s ease-out forwards;
+}
+
+@keyframes curtain-fade {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

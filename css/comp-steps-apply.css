@@ -1,0 +1,19 @@
+@media screen and (max-width: 991px) {
+    .s_sta_c3_row:nth-child(1)::before,
+    .s_sta_c3_row:nth-child(2)::before {
+        content: '';
+        position: absolute;
+        left: 1.5rem;
+        top: 0;
+        width: 0;
+        height: 100%;
+        border-left: 1px dashed var(--base-color-brand--seashell);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .s_sta_c3_row:nth-child(1)::before,
+    .s_sta_c3_row:nth-child(2)::before {
+        left: 1rem;
+    }
+}

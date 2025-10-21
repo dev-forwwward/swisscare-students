@@ -1,0 +1,12 @@
+
+.s_pap_star .graphic-star-1-wrapper {
+    position: relative;
+    left: -50%;
+}
+
+@media screen and (max-width: 991px) {
+    .s_pap_star .graphic-star-1-wrapper {
+        left: 0;
+        right: 0;
+    }
+}

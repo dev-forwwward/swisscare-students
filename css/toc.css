@@ -1,0 +1,21 @@
+
+.fs-toc_title h2 {
+    padding: 0;
+}
+
+.toc-line-top,
+.toc-line-bottom {
+    transition: 0.3s ease;
+}
+
+.open {
+    .toc-line-top {
+        transform: rotate(45deg);
+        top: 1px;
+    }
+
+    .toc-line-bottom {
+        transform: rotate(-45deg);
+        bottom: 7px;
+    }
+}

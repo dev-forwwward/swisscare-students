@@ -1,0 +1,64 @@
+.section_testimonials {
+    .s_tgr_content_2  {
+        .s_tgr_list_card_wrapper:nth-child(1) .card_2 {
+            background-color: var(--base-color-brand--pale-cornflower-blue);
+        }
+        .s_tgr_list_card_wrapper:nth-child(2) .card_2 {
+            background-color: var(--base-color-brand--maize-2);
+            top: 2.5rem;
+        }
+        .s_tgr_list_card_wrapper:nth-child(3) .card_2 {
+        background-color: var(--base-color-brand--persian-pink); 
+            top: -1.5rem;
+        }
+        .s_tgr_list_card_wrapper:nth-child(4) .card_2 {
+            top: 1.875rem;
+
+            .card_2_profile {
+                border-color: var(--_theme---brand-2--card-text-1);
+            }
+
+            .card_2_name,
+            .card_2_desc {
+                color: var(--_theme---brand-2--card-text-1);
+            }
+
+            .card_2_country,
+            .card_2_number_stars {
+                color: var(--_theme---brand-2--card-text-2);
+            }
+        }
+    }
+
+    .s_tgr_content_3 {
+        .s_tgr_list_card_wrapper:nth-child(1) .card_2 {
+        background-color: var(--base-color-brand--persian-pink); 
+        
+        }
+        .s_tgr_list_card_wrapper:nth-child(2) .card_2 {
+            top: 2.75rem;
+
+            .card_2_profile {
+                border-color: var(--_theme---brand-2--card-text-1);
+            }
+
+            .card_2_name,
+            .card_2_desc {
+                color: var(--_theme---brand-2--card-text-1);
+            }
+
+            .card_2_country,
+            .card_2_number_stars {
+                color: var(--_theme---brand-2--card-text-2);
+            }
+        }
+        .s_tgr_list_card_wrapper:nth-child(3) .card_2 {
+            background-color: var(--base-color-brand--pale-cornflower-blue);
+            top: -3rem;
+        }
+        .s_tgr_list_card_wrapper:nth-child(4) .card_2 {
+            background-color: var(--base-color-brand--maize-2);
+            top: 2.25rem;
+        } 
+    }
+}

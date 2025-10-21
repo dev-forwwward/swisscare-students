@@ -1,0 +1,11 @@
+/*
+*   FANCYBOX
+*/
+.fancybox__backdrop {
+    background: #222A2E;
+    opacity: .79 !important;
+}
+
+.fancybox__viewport {
+    backdrop-filter: blur(10px);
+}

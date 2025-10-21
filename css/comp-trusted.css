@@ -1,0 +1,4 @@
+
+.trusted_list li:nth-child(n+1){
+    margin-left: -.5rem;
+}

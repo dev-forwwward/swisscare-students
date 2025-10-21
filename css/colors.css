@@ -1,0 +1,15 @@
+
+/* Light (default) */
+:root{
+  --lottie-plane-stroke: #1e1e1e; /* HP hero plane outline */
+  --lottie-plane-fill:   #cce0fc; /* HP hero plane body */
+  --lottie-trail:        #cce0fc; /* HP hero plane thick path */
+  --lottie-dash:         rgb(40 40 40 / 50%); /* HP hero plane dashed path */
+}
+
+.u-theme-dark{
+  --lottie-plane-stroke: #e6e6e6;
+  --lottie-plane-fill:   #282828;
+  --lottie-trail:        #282828;
+  --lottie-dash:         rgb(230 230 230 / 50%);
+}

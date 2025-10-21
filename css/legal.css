@@ -1,0 +1,30 @@
+
+.section_legal {
+    h2 {
+        padding: 2rem 0 1.25rem;
+        letter-spacing: -.02rem;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 120%;
+
+        &:first-child {
+            padding-top: 0;
+        }
+    }
+
+    h3 {
+        padding: 1.5rem 0 1.25rem;
+    }
+
+    p, li {
+        opacity: .6;
+    }
+
+    .w-richtext a {
+        color: var(--_theme---brand-2--elements);
+    }
+
+    /* .w--current {
+        opacity: 1;
+    } */
+}
