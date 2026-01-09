@@ -26,7 +26,22 @@
     }
 }
 
+.card_3 {
+    .card_bottom,
+    .card_bottom_text,
+    .card_btn_icon {
+        transition: all 0.3s;
+    }
 
+    .card_bottom:hover{
+        background-color: var(--_theme---brand-2--elements);
+
+        .card_bottom_text,
+        .card_btn_icon {
+            color: var(--_theme---brand-2--elements-2);
+        }
+    }
+}
 
 
 
