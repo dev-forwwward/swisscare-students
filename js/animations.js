@@ -75,6 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sectionTrigger = document.querySelector('.section_eligible');
 
     if (visionCards.length && sectionTrigger) {
+        console.log("ededede");
         let visionReveal = gsap.timeline({
             scrollTrigger: {
                 trigger: sectionTrigger,
